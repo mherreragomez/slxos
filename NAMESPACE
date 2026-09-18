@@ -1,0 +1,8 @@
+export(slx_scores)
+export(sarar_mle)
+export(os_rescaled)
+export(slx_test)
+S3method(print, slx_scores)
+S3method(print, slxos)
+S3method(summary, slxos)
+importFrom(stats, optim, pchisq, pf, model.frame, model.matrix, model.response)

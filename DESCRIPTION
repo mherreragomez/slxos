@@ -1,0 +1,25 @@
+Package: slxos
+Type: Package
+Title: Orthogonal SLX Score Tests for Spatial Durbin Models
+Version: 0.1.0
+Authors@R: person("Marcos", "Herrera-Gomez", email = "mherreragomez@conicet.gov.ar",
+    role = c("aut", "cre"))
+Description: Exact decomposition of the SLX (spatially lagged regressors) score
+    test into a projection onto the common-factor direction, numerically equal
+    to the classical robust Lagrange multiplier test for a spatial lag, and an
+    orthogonal remainder that isolates covariate-specific spillovers. Provides
+    the orthogonalised score OS_theta and its exact F counterpart, the classical
+    Anselin (1996) diagnostic battery, a closed-form rescaled sandwich statistic
+    (single SARAR fit, no resampling) robust to spatial-error contamination, and
+    a guided diagnostic sequence. Implements the methods of Herrera-Gomez (2026).
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 3.5.0)
+Imports: stats
+Suggests: spdep, spData
+LazyData: true
+NeedsCompilation: no
+RoxygenNote: 7.3.1
+Packaged: 2026-08-23 13:14:45 UTC; root
+Author: Marcos Herrera-Gomez [aut, cre]
+Maintainer: Marcos Herrera-Gomez <mherreragomez@conicet.gov.ar>
